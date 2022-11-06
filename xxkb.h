@@ -23,6 +23,8 @@
 #define	Main_tray           (1<<16)
 #define	Main_ontop          (1<<17)
 
+#define Ignore_wm_hints     (1<<18)
+
 #define	SYSTEM_TRAY_REQUEST_DOCK    0
 #define	SYSTEM_TRAY_BEGIN_MESSAGE   1
 #define	SYSTEM_TRAY_CANCEL_MESSAGE  2

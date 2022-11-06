@@ -115,7 +115,8 @@ struct {
 	{ "two_state",			Two_state },
 	{ "button_delete",		Button_delete },
 	{ "button_delete_and_forget",	Forget_window },
-	{ "mainwindow_delete",		Main_delete }
+	{ "mainwindow_delete",		Main_delete },
+	{ "ignore_wm_hints",		Ignore_wm_hints }
 };
 
 
