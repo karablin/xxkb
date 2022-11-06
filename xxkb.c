@@ -1147,9 +1147,9 @@ ExpectInput(Window w)
 	Bool ok = False;
 	XWMHints *hints;
 
-    if (conf.controls & Ignore_wm_hints) {
-        return True;
-    }
+	if (conf.controls & Ignore_wm_hints) {
+		return True;
+	}
 
 	hints = XGetWMHints(dpy, w);
 	if (hints != NULL) {
