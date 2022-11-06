@@ -36,6 +36,7 @@ XXkb.controls.two_state: yes
 XXkb.controls.button_delete: yes
 XXkb.controls.button_delete_and_forget: yes
 XXkb.controls.mainwindow_delete: yes
+XXkb.controls.ignore_wm_hints: no
 
 XXkb.mousebutton.1.reverse: no
 XXkb.mousebutton.3.reverse: no
